@@ -1,0 +1,74 @@
+@10 = "Isaac's spell note"
+
+@11 = "Isaac's lesser missile storm"
+
+@12 = "Isaac's lesser missile storm (empowered)"
+
+@13 = "Isaac's greater missile storm"
+
+@14 = "Isaac's greater missile storm (empowered)"
+
+@15 = "Isaac's greater missile storm (maximized)"
+
+@20 = "This book contains some of Isaac's spell notes, including his most famous series of missile storm spells. You can try to learn those spells if you want."
+
+@21 = "Isaac's lesser missile storm
+Level: 4
+School: evocation
+Range: Visual range of caster
+Duration: instant
+Casting Time: 4
+Area of Effect: no more than 10 creatures in visual range
+Saving Throw: None
+
+A number of energy missiles (one per caster level but to a maximum of 10) appear and randomly target and hit any hostile creature in the area of effect. If there are more creatures than missiles, only the closest targets will be damaged. If there are more missiles than creatures, some of the creatures will be hit with multiple missiles. Each missile does 1d6 points of damage."
+
+@22 = "Isaac's lesser missile storm (empowered)
+Level: 4
+School: evocation
+Range: Visual range of caster
+Duration: instant
+Casting Time: 4
+Area of Effect: no more than 10 creatures in visual range
+Saving Throw: None
+
+A number of energy missiles (one per caster level but to a maximum of 10) appear and randomly target and hit any hostile creature in the area of effect. If there are more creatures than missiles, only the closest targets will be damaged. If there are more missiles than creatures, some of the creatures will be hit with multiple missiles. Each missile does 1d6 points of damage. 
+
+This spell is empowered to deal one and one-half times normal damage. It is still a level 4 spell but occupies a spell slot one level higher than normal."
+
+@23 = "Isaac's greater missile storm
+Level: 6
+School: evocation
+Range: Visual range of caster
+Duration: instant
+Casting Time: 6
+Area of Effect: no more than 10 creatures in visual range
+Saving Throw: None
+
+A number of energy missiles (one per caster level but to a maximum of 20) appear and randomly target and hit any hostile creature in the area of effect. If there are more than 10 creatures, only the closest 10 targets will be damaged. Each missile does 2d6 points of magical damage."
+
+@24 = "Isaac's greater missile storm (empowered)
+Level: 6
+School: evocation
+Range: Visual range of caster
+Duration: instant
+Casting Time: 6
+Area of Effect: no more than 10 creatures in visual range
+Saving Throw: None
+
+A number of energy missiles (one per caster level but to a maximum of 20) appear and randomly target and hit any hostile creature in the area of effect. If there are more than 10 creatures, only the closest 10 targets will be damaged. Each missile does 2d6 points of magical damage.
+
+This spell is empowered to deal one and one-half times normal damage. It is still a level 6 spell but occupies a spell slot one level higher than normal."
+
+@25 = "Isaac's greater missile storm (maximized)
+Level: 6
+School: evocation
+Range: Visual range of caster
+Duration: instant
+Casting Time: 6
+Area of Effect: no more than 10 creatures in visual range
+Saving Throw: None
+
+A number of energy missiles (one per caster level but to a maximum of 20) appear and randomly target and hit any hostile creature in the area of effect. If there are more than 10 creatures, only the closest 10 targets will be damaged. Each missile does 2d6 points of magical damage.
+
+This spell is maximized to deal a maximum damage value. It is still a level 6 spell but occupies a spell slot two levels higher than normal."

@@ -1,0 +1,502 @@
+//10级施法者打出10个飞弹
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(TenthNearestEnemyOf(Myself)))
+	LevelGT(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SeventhNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)		
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",EighthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NinthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",TenthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(NinthNearestEnemyOf(Myself)))
+	LevelGT(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		SmallWait(3)		
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SeventhNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",EighthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",TenthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(EighthNearestEnemyOf(Myself)))
+	LevelGT(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SeventhNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",TenthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(SeventhNearestEnemyOf(Myself)))
+	LevelGT(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SeventhNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)	
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",TenthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(SixthNearestEnemyOf(Myself)))
+	LevelGT(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",TenthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(FifthNearestEnemyOf(Myself)))
+	LevelGT(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",FourthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+//9级施法者打出9个飞弹
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(NinthNearestEnemyOf(Myself)))
+	Level(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SeventhNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",EighthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",NinthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(EighthNearestEnemyOf(Myself)))
+	Level(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SeventhNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",EighthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(SeventhNearestEnemyOf(Myself)))
+	Level(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SeventhNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",FourthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(SixthNearestEnemyOf(Myself)))
+	Level(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",FourthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(FifthNearestEnemyOf(Myself)))
+	Level(LastSummonerOf(Myself),9)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",FourthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+//8级施法者打出8个飞弹
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(EighthNearestEnemyOf(Myself)))
+	Level(LastSummonerOf(Myself),8)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SeventhNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",EighthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(SeventhNearestEnemyOf(Myself)))
+	Level(LastSummonerOf(Myself),8)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SeventhNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",FourthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(SixthNearestEnemyOf(Myself)))
+	Level(LastSummonerOf(Myself),8)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",FourthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(FifthNearestEnemyOf(Myself)))
+	Level(LastSummonerOf(Myself),8)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",SecondNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+//7级施法者打出7个飞弹
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(SeventhNearestEnemyOf(Myself)))
+	LevelLT(LastSummonerOf(Myself),8)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SeventhNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",FourthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(SixthNearestEnemyOf(Myself)))
+	LevelLT(LastSummonerOf(Myself),8)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SixthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",FourthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(FifthNearestEnemyOf(Myself)))
+	LevelLT(LastSummonerOf(Myself),8)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FifthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",SecondNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+//五个敌人以下为通用脚本，自动按等级释放7~10发
+//只有四个敌人
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(FourthNearestEnemyOf(Myself)))
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSC",NearestEnemyOf(Myself)))	//1-2
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSD",SecondNearestEnemyOf(Myself)))	//1-3
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",FourthNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",ThirdNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",FourthNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+//只有三个敌人
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(ThirdNearestEnemyOf(Myself)))
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSD",NearestEnemyOf(Myself)))	//1-3
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSC",ThirdNearestEnemyOf(Myself)))	//1-2
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSB",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",ThirdNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+//只有两个敌人
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(SecondNearestEnemyOf(Myself)))
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSD",NearestEnemyOf(Myself)))	//1-3
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSC",SecondNearestEnemyOf(Myself)))	//1-2
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSB",SecondNearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",SecondNearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+//只有一个敌人
+IF
+	TriggerOverride(LastSummonerOf(Myself),Detect(NearestEnemyOf(Myself)))
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),SetSequence(SEQ_CAST))
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSC",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSD",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSB",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI4MSA",NearestEnemyOf(Myself)))
+		SmallWait(3)
+		ActionOverride(LastSummonerOf(Myself),ReallyForceSpellRES("SPWI5MSA",NearestEnemyOf(Myself)))
+		DestroySelf()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		DestroySelf()
+END

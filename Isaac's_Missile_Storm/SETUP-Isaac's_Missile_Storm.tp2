@@ -1,0 +1,76 @@
+BACKUP ~Isaac's_Missile_Storm/backup~
+AUTHOR ~shohy@126.com~
+
+VERSION ~v0.3~
+AUTO_EVAL_STRINGS
+
+README ~%MOD_FOLDER%/README.txt~
+AUTO_TRA ~%MOD_FOLDER%/tra/%s~
+
+LANGUAGE  ~American English~	~english~ 		~Isaac's_Missile_Storm/tra/english/game.tra~ ~Isaac's_Missile_Storm/tra/english/setup.tra~
+LANGUAGE  ~Simplified Chinese~	~schinese~  ~Isaac's_Missile_Storm/tra/schinese/game.tra~ ~Isaac's_Missile_Storm/tra/schinese/setup.tra~
+
+
+BEGIN @1
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ OR FILE_EXISTS_IN_GAME BD1000.are @2	//版本不对
+
+COMPILE ~Isaac's_Missile_Storm/baf~
+
+COPY ~Isaac's_Missile_Storm/bam~ ~override~
+
+COPY ~Isaac's_Missile_Storm/cre~ ~override~
+
+COPY ~Isaac's_Missile_Storm/eff~ ~override~
+
+COPY ~Isaac's_Missile_Storm/itm/BOOKIMS0.itm~ ~override~
+SAY NAME2 @10
+SAY IDENTIFIED_DESC @20
+
+COPY ~Isaac's_Missile_Storm/spl/SPWI4MS0.spl~ ~override~
+SAY NAME1 @11
+SAY UNIDENTIFIED_DESC @21
+
+COPY ~Isaac's_Missile_Storm/spl/SPWI5MS0.spl~ ~override~
+SAY NAME1 @12
+SAY UNIDENTIFIED_DESC @22
+
+COPY ~Isaac's_Missile_Storm/spl/SPWI6MS0.spl~ ~override~
+SAY NAME1 @13
+SAY UNIDENTIFIED_DESC @23
+
+COPY ~Isaac's_Missile_Storm/spl/SPWI7MS0.spl~ ~override~
+SAY NAME1 @14
+SAY UNIDENTIFIED_DESC @24
+
+COPY ~Isaac's_Missile_Storm/spl/SPWI8MS0.spl~ ~override~
+SAY NAME1 @15
+SAY UNIDENTIFIED_DESC @25
+
+COPY ~Isaac's_Missile_Storm/spl/noname~ ~override~
+
+ACTION_IF FILE_EXISTS_IN_GAME highhedg.sto THEN BEGIN	//Thalantyr泰蓝提尔 High Hedge高篱堡
+	COPY_EXISTING ~highhedg.sto~ ~override~
+		ADD_STORE_ITEM ~BOOKIMS0~ LAST #1 #0 #0 ~IDENTIFIED~ #1
+	BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME bdsorcsc.sto THEN BEGIN	//Halbazzer Drin哈巴瑟·德林	Sorcerous Sundries巫术杂货店
+	COPY_EXISTING ~bdsorcsc.sto~ ~override~
+		ADD_STORE_ITEM ~BOOKIMS0~ LAST #1 #0 #0 ~IDENTIFIED~ #1
+	BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ribald.sto THEN BEGIN	//Ribald利博德	Adventurer's Mart冒险者集市
+	COPY_EXISTING ~ribald.sto~ ~override~
+		ADD_STORE_ITEM ~BOOKIMS0~ LAST #1 #0 #0 ~IDENTIFIED~ #1
+	BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME 25spell.sto THEN BEGIN	//Lazarus Librarus拉札卢斯·李巴卢斯 Saradush萨拉督许
+	COPY_EXISTING ~25spell.sto~ ~override~
+		ADD_STORE_ITEM ~BOOKIMS0~ LAST #1 #0 #0 ~IDENTIFIED~ #1
+	BUT_ONLY
+END
+
+
+
