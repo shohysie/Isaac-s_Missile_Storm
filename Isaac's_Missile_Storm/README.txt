@@ -7,6 +7,8 @@ After installation, Isaac's spell notes can be purchased at the shops of:
 If you've already visited these stores before installing this MOD, you need to restart a game.
 
 Version History: 
+V0.4
+Fixed the occasionnally shortage Isaac's Lesser Missile Storm caused by clerical errors.
 V0.3
 Fixed the damage of Isaac's Lesser Missile Storm.
 Modified detailed action that the caster can't do other actions during the firing of missiles.
@@ -23,6 +25,8 @@ Reduced the time from the success of casting to the appearance of missiles.
 如果安装MOD之前已经访问过这些商店，就需要重新开始游戏。
 
 更新历史：
+v0.4
+修正了因为笔误导致次级飞弹风暴偶尔数量不足的问题。
 v0.3
 修正中文版可能乱码导致游戏崩溃的问题，但安装选项在旧操作系统可能显示为乱码（不影响安装）。
 修正次级飞弹风暴在敌人数量较多时的伤害错误。
