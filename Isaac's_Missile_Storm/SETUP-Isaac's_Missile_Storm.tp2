@@ -1,7 +1,7 @@
 BACKUP ~Isaac's_Missile_Storm/backup~
 AUTHOR ~shohy@126.com~
 
-VERSION ~v0.4~
+VERSION ~v0.6~
 AUTO_EVAL_STRINGS
 
 README ~%MOD_FOLDER%/README.txt~
@@ -72,5 +72,14 @@ ACTION_IF FILE_EXISTS_IN_GAME 25spell.sto THEN BEGIN	//Lazarus LibrarusÀ­ÔýÂ¬Ë¹¡
 	BUT_ONLY
 END
 
+ACTION_IF FILE_EXISTS_IN_GAME kuork1.sto THEN BEGIN	//Orrick»ÒÅÛÅ·Èð¿Ë Kuldahar¿â´ï¹þ
+	COPY_EXISTING ~kuork1.sto~ ~override~
+		ADD_STORE_ITEM ~BOOKIMS0~ LAST #1 #0 #0 ~IDENTIFIED~ #1
+	BUT_ONLY
+END
 
-
+ACTION_IF FILE_EXISTS_IN_GAME 11ELYTHA.sto THEN BEGIN	//ElytharraÒÁÀÙÉªÀ­ Targos TownËþ¶û¸èË¹³Ç
+	COPY_EXISTING ~11ELYTHA.sto~ ~override~
+		ADD_STORE_ITEM ~BOOKIMS0~ LAST #1 #0 #0 ~IDENTIFIED~ #1
+	BUT_ONLY
+END
