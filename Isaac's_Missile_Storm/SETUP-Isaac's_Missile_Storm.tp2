@@ -9,6 +9,7 @@ AUTO_TRA ~%MOD_FOLDER%/tra/%s~
 
 LANGUAGE  ~American English~	~english~ 		~Isaac's_Missile_Storm/tra/english/game.tra~ ~Isaac's_Missile_Storm/tra/english/setup.tra~
 LANGUAGE  ~Simplified Chinese~	~schinese~  ~Isaac's_Missile_Storm/tra/schinese/game.tra~ ~Isaac's_Missile_Storm/tra/schinese/setup.tra~
+LANGUAGE  ~Francais~	~french~  ~Isaac's_Missile_Storm/tra/french/game.tra~ ~Isaac's_Missile_Storm/tra/french/setup.tra~
 
 
 BEGIN @1
