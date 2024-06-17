@@ -1,18 +1,18 @@
 @10 = "Note des sortilèges d'Isaac"
 
-@11 = "Tempête de missiles mineur d'Isaac"
+@11 = "Tempête de projectiles mineure d'Isaac"
 
-@12 = "Tempête de missiles mineur d'Isaac (renforcée)"
+@12 = "Tempête de projectiles mineure d'Isaac (renforcée)"
 
-@13 = "Tempête de missiles majeure d'Isaac"
+@13 = "Tempête de projectiles majeure d'Isaac"
 
-@14 = "Tempête de missiles majeure d'Isaac (renforcée)"
+@14 = "Tempête de projectiles majeure d'Isaac (renforcée)"
 
-@15 = "Tempête de missiles majeure d'Isaac (maximisée)"
+@15 = "Tempête de projectiles majeure d'Isaac (maximisée)"
 
-@20 = "Ce livre contient certaines des notes sur les sortilèges d'Isaac, y compris sa plus célèbre série de sortilèges de tempête de missiles. Vous pouvez essayer d'apprendre ces sorts si vous le souhaitez."
+@20 = "Ce livre contient certaines des notes sur les sortilèges d'Isaac, y compris sa plus célèbre série de sortilèges de Tempête de projectiles. Vous pouvez essayer d'apprendre ces sorts si vous le souhaitez."
 
-@21 = "Tempête de missiles mineur d'Isaac
+@21 = "Tempête de projectiles mineure d'Isaac
 (Profane - Évocation)
 
 Niveau : 4
@@ -24,7 +24,7 @@ Jet de sauvegarde : Aucun
 
 Ce sort permet de créer jusqu'à dix projectiles d'énergie magique (un par niveau de lanceur de sorts) qui fusent du bout des doigts du magicien et frappent aléatoirement toute créature hostile dans la zone d'effet. S'il y a plus de créatures que de projectiles, seules les cibles les plus proches subissent des dégâts. S'il y a plus de projectiles que de créatures, certaines d'entre elles seront touchées par plusieurs projectiles. Chaque projectile inflige 1d6 points de dégâts."
 
-@22 = "Tempête de missiles mineur d'Isaac (renforcée)
+@22 = "Tempête de projectiles mineure d'Isaac (renforcée)
 (Profane - Évocation)
 
 Niveau : 4
@@ -38,7 +38,7 @@ Ce sort permet de créer jusqu'à dix projectiles d'énergie magique (un par niv
 
 Ce sort est renforcé pour infliger des dégâts une fois et demi plus importants que la normale. Il s'agit toujours d'un sort de niveau 4, mais il occupe un emplacement de sort d'un niveau supérieur à la normale."
 
-@23 = "Tempête de missiles majeure d'Isaac
+@23 = "Tempête de projectiles majeure d'Isaac
 (Profane - Évocation)
 
 Niveau : 6
@@ -50,7 +50,7 @@ Jet de sauvegarde : Aucun
 
 Ce sort permet de créer jusqu'à vingt projectiles d'énergie magique (un par niveau de lanceur de sorts) qui fusent du bout des doigts du magicien et frappent aléatoirement toute créature hostile dans la zone d'effet. S'il y a plus de dix créatures, seules les 10 plus proches subissent des dégâts. Chaque projectile inflige 2d6 points de dégâts."
 
-@24 = "Tempête de missiles majeure d'Isaac (renforcée)
+@24 = "Tempête de projectiles majeure d'Isaac (renforcée)
 (Profane - Évocation)
 
 Niveau : 6
@@ -64,7 +64,7 @@ Ce sort permet de créer jusqu'à vingt projectiles d'énergie magique (un par n
 
 Ce sort est renforcé pour infliger des dégâts une fois et demi plus importants que la normale. Il s'agit toujours d'un sort de niveau 6, mais il occupe un emplacement de sort d'un niveau supérieur à la normale."
 
-@25 = "Tempête de missiles majeure d'Isaac (maximisée)
+@25 = "Tempête de projectiles majeure d'Isaac (maximisée)
 (Profane - Évocation)
 
 Niveau : 6
