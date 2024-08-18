@@ -10,6 +10,8 @@ If you've installed the MOD IWD1_EET and IWD2_EET, the notes can be purchased at
 If you've already visited these stores before installing this MOD, you need to restart a game.
 
 Version History: 
+v0.7
+All spells can hit invisible creatures.
 v0.6
 Reduced the pause time of Isaac's Greater Missile Storm to less than 1 second. Pause time of Isaac's Lesser Missile Storm is even shorter.
 v0.5
@@ -34,6 +36,8 @@ Reduced the time from the success of casting to the appearance of missiles.
 如果安装MOD之前已经访问过这些商店，就需要重新开始游戏。
 
 更新历史：
+v0.7
+飞弹风暴可以打中隐形生物。
 v0.6
 飞弹风暴施法暂停时间减少到不到1秒，次级飞弹风暴暂停时间更短。
 v0.5

@@ -9,6 +9,8 @@ After installation, Isaac's spell notes can be purchased at the shops of:
 If you've already visited these stores before installing this MOD, you need to restart a game.
 
 Version History: 
+v0.7
+All spells can hit invisible creatures.
 v0.6
 Reduced the pause time of Isaac's Greater Missile Storm to less than 1 second. Pause time of Isaac's Lesser Missile Storm is even shorter.
 v0.5
