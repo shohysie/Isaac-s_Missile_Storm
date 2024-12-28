@@ -9,6 +9,8 @@ After installation, Isaac's spell notes can be purchased at the shops of:
 If you've already visited these stores before installing this MOD, you need to restart a game.
 
 Version History: 
+v0.8
+Added a french version, thanks to Selphira.
 v0.7
 All spells can hit invisible creatures.
 v0.6

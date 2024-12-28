@@ -10,6 +10,8 @@ If you've installed the MOD IWD1_EET and IWD2_EET, the notes can be purchased at
 If you've already visited these stores before installing this MOD, you need to restart a game.
 
 Version History: 
+v0.8
+Added a french version, thanks to Selphira.
 v0.7
 All spells can hit invisible creatures.
 v0.6
@@ -36,6 +38,8 @@ Reduced the time from the success of casting to the appearance of missiles.
 如果安装MOD之前已经访问过这些商店，就需要重新开始游戏。
 
 更新历史：
+v0.8
+添加了法语版，感谢Selphira提供翻译。
 v0.7
 飞弹风暴可以打中隐形生物。
 v0.6
